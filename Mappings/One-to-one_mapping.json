@@ -1,0 +1,92 @@
+{
+    "fileversion": "2.1", 
+    "mapping": {
+        "connections": [
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/window"
+                ], 
+                "srcMin": 0, 
+                "srcMax": 1024, 
+                "destMin": 0.0, 
+                "src": [
+                    "/Batons.1/RFSR"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*0.000976562+-0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/length"
+                ], 
+                "srcMin": -90, 
+                "srcMax": 90, 
+                "destMin": 0.0, 
+                "src": [
+                    "/Batons.1/RPitch"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1000.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*5.55556+500"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/beginratio"
+                ], 
+                "srcMin": -90, 
+                "srcMax": 90, 
+                "destMin": 0.0, 
+                "src": [
+                    "/Batons.1/LPitch"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*0.00555556+0.5"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/resonance"
+                ], 
+                "srcMin": 0, 
+                "srcMax": 1024, 
+                "destMin": 0.0, 
+                "src": [
+                    "/Batons.1/LFSR"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1000.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*0.976562+-0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/gain"
+                ], 
+                "srcMin": 0, 
+                "srcMax": 1024, 
+                "destMin": 0.0, 
+                "src": [
+                    "/Batons.1/LPot"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*0.000976562+-0"
+            }
+        ]
+    }
+}

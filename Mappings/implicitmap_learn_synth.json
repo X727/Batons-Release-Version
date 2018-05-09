@@ -1,0 +1,58 @@
+{
+    "fileversion": "2.1", 
+    "mapping": {
+        "connections": [
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/beginratio"
+                ], 
+                "srcMin": 0.0, 
+                "srcMax": 1.0, 
+                "destMin": 0.0, 
+                "src": [
+                    "/implicitmap.1/beginratio"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/gain"
+                ], 
+                "srcMin": 0.0, 
+                "srcMax": 1.0, 
+                "destMin": 0.0, 
+                "src": [
+                    "/implicitmap.1/gain"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/granul8.1/length"
+                ], 
+                "srcMin": 0.0, 
+                "srcMax": 1000.0, 
+                "destMin": 0.0, 
+                "src": [
+                    "/implicitmap.1/length"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 1000.0, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "fileversion": "2.1", 
+    "mapping": {
+        "connections": [
+            {
+                "mute": 0, 
+                "dest": [
+                    "/implicitmap.1/in4"
+                ], 
+                "srcMin": -180, 
+                "srcMax": 180, 
+                "destMin": -180, 
+                "src": [
+                    "/Batons.1/RRoll"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 180, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/implicitmap.1/in3"
+                ], 
+                "srcMin": -90, 
+                "srcMax": 90, 
+                "destMin": -90, 
+                "src": [
+                    "/Batons.1/RPitch"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 90, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/implicitmap.1/in1"
+                ], 
+                "srcMin": -90, 
+                "srcMax": 90, 
+                "destMin": -90, 
+                "src": [
+                    "/Batons.1/LPitch"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 90, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }, 
+            {
+                "mute": 0, 
+                "dest": [
+                    "/implicitmap.1/in2"
+                ], 
+                "srcMin": -180, 
+                "srcMax": 180, 
+                "destMin": -180, 
+                "src": [
+                    "/Batons.1/LRoll"
+                ], 
+                "boundMin": "none", 
+                "boundMax": "none", 
+                "destMax": 180, 
+                "mode": "linear", 
+                "expression": "dest[0]=src[0]*1+0"
+            }
+        ]
+    }
+}
