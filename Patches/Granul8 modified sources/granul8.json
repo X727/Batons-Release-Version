@@ -1,0 +1,1305 @@
+{
+    "device": {
+        "fileversion": "dot-1",
+        "name": "/granul8",
+        "numInputs": 191,
+        "numOutputs": 0,
+        "inputs": [
+            {
+                "name": "/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/filter/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/filter/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/filter/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/filter/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/filter/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/filter/envelope/frequency/high",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/filter/envelope/frequency/low",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/reverb/mix",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/reverb/decaytime",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "2000",
+                "units": "ms"
+            },
+            {
+                "name": "/reverb/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500"
+            },
+            {
+                "name": "/reverb/diffusion",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500"
+            },
+            {
+                "name": "/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.n/instance",
+                "type": "i",
+                "length" : 8,
+                "minimum": 0,
+                "maximum": 1
+            },
+            {
+                "name": "/grain.n/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.n/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.n/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.n/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.n/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.n/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.n/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.n/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.n/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.n/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.n/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.n/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.n/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.1/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.1/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.1/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.1/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.1/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.1/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.1/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.1/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.1/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.1/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.1/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.1/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.1/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.2/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.2/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.2/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.2/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.2/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.2/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.2/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.2/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.2/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.2/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.2/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.2/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.2/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.2/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.2/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.2/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.2/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.2/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.2/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.3/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.3/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.3/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.3/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.3/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.3/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.3/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.3/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.3/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.3/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.3/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.3/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.3/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.3/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.3/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.3/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.3/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.3/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.3/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.4/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.4/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.4/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.4/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.4/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.4/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.4/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.4/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.4/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.4/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.4/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.4/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.4/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.5/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.5/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.5/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.5/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.5/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.5/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.5/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.5/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.5/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.5/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.5/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.5/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.5/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.6/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.6/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.6/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.6/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.6/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.6/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.6/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.6/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.6/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.6/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.6/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.6/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.6/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.7/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.7/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.7/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.7/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.7/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.7/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.7/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.7/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.7/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.7/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.7/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.7/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.7/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.8/enable",
+                "type": "i",
+                "minimum": "0",
+                "maximum": "1"
+            },
+            {
+                "name": "/grain.8/window",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/freqmult",
+                "type": "f",
+                "minimum": "0",
+                "maximum": 1
+            },
+            {
+                "name": "/grain.8/beginratio",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/beginrange",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "5000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.8/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "150",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.8/length",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1000",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.8/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/pan",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/basenote",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.8/note",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "92",
+                "units": "MIDInote"
+            },
+            {
+                "name": "/grain.8/filter/frequency",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "20000",
+                "units": "Hz"
+            },
+            {
+                "name": "/grain.8/filter/resonance",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "10"
+            },
+            {
+                "name": "/grain.8/filter/gain",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/envelope/damping",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "100"
+            },
+            {
+                "name": "/grain.8/envelope/trigger",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/envelope/hold",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "1",
+                "units": "normalized"
+            },
+            {
+                "name": "/grain.8/envelope/attack",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            },
+            {
+                "name": "/grain.8/envelope/release",
+                "type": "f",
+                "minimum": "0",
+                "maximum": "500",
+                "units": "ms"
+            }
+        ],
+        "outputs": []
+    }
+}
